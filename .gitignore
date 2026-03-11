@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 数据
+data/raw/*.csv
+data/processed/*.csv
+data/features/*.csv
+*.db
+*.sqlite
+
+# 模型
+models/*.pkl
+models/*.joblib
+
+# 日志
+logs/*.log
+logs/*.log.*
+
+# 配置
+config/config.local.yaml
+.env
+.env.local
+
+# Jupyter
+.ipynb_checkpoints
+notebooks/*.ipynb
+
+# 测试
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Docker
+.docker/
+
+# 临时文件
+*.tmp
+*.bak
+*.temp
+
+# OS
+.DS_Store
+Thumbs.db
