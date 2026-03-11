@@ -1,14 +1,23 @@
 # Core dependencies
+pyspark==3.4.1
 pandas==2.1.3
 numpy==1.26.2
-scikit-learn==1.3.2
-joblib==1.3.2
 
 # LightGBM
 lightgbm==4.1.0
 
+# Spark ML
+spark-sklearn==1.3.0
+
 # Bayesian Optimization
 bayesian-optimization==1.4.0
+
+# OBS SDK (华为云)
+esdk-obs-python==3.23.9
+
+# Alternative: AWS S3 (如果 OBS 兼容 S3 API)
+# boto3==1.34.0
+# s3fs==2023.12.0
 
 # API & Web
 fastapi==0.104.1
@@ -23,7 +32,7 @@ matplotlib==3.8.2
 seaborn==0.13.0
 
 # Data processing
-scipy==1.11.4
+pyarrow==14.0.1
 
 # Logging & Config
 pyyaml==6.0.1
@@ -32,9 +41,6 @@ loguru==0.7.2
 # Testing
 pytest==7.4.3
 pytest-cov==4.1.0
-
-# Docker
-supervisor==4.2.5
 
 # Development
 black==23.11.0
